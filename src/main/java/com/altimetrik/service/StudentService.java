@@ -1,4 +1,4 @@
-package com.infybuzz.service;
+package com.altimetrik.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
-import com.infybuzz.entity.Student;
-import com.infybuzz.feignclients.AddressFeignClient;
-import com.infybuzz.repository.StudentRepository;
-import com.infybuzz.request.CreateStudentRequest;
-import com.infybuzz.response.StudentResponse;
+import com.altimetrik.entity.Student;
+import com.altimetrik.feignclients.AddressFeignClient;
+import com.altimetrik.repository.StudentRepository;
+import com.altimetrik.request.CreateStudentRequest;
+import com.altimetrik.response.StudentResponse;
 
 @Service
 public class StudentService {

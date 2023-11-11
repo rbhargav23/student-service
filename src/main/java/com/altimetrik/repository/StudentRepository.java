@@ -1,9 +1,9 @@
-package com.infybuzz.repository;
+package com.altimetrik.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.infybuzz.entity.Student;
+import com.altimetrik.entity.Student;
 
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {

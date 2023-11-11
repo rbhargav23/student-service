@@ -1,6 +1,6 @@
-package com.infybuzz.response;
+package com.altimetrik.response;
 
-import com.infybuzz.entity.Student;
+import com.altimetrik.entity.Student;
 
 public class StudentResponse {
 
