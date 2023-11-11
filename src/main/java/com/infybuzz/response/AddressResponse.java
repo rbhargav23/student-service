@@ -1,4 +1,4 @@
-package com.altimetrik.response;
+package com.infybuzz.response;
 
 public class AddressResponse {
 
