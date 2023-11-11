@@ -1,4 +1,4 @@
-package com.altimetrik.app;
+package com.infybuzz.app;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -12,10 +12,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.reactive.function.client.WebClient;
 
 @SpringBootApplication
-@ComponentScan({"com.altimetrik.controller", "com.altimetrik.service"})
-@EntityScan("com.altimetrik.entity")
-@EnableJpaRepositories("com.altimetrik.repository")
-@EnableFeignClients("com.altimetrik.feignclients")
+@ComponentScan({"com.infybuzz.controller", "com.infybuzz.service"})
+@EntityScan("com.infybuzz.entity")
+@EnableJpaRepositories("com.infybuzz.repository")
+@EnableFeignClients("com.infybuzz.feignclients")
 @EnableEurekaClient
 public class StudentServiceApplication {
 	
